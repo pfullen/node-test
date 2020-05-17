@@ -4,9 +4,9 @@ const port = 8080;
 const router = express.Router();
 
 const path = __dirname + '/views/';
-app.get('/',function (req, res) {
-	res.send("Paco Loves Bri!!!!!!")
-})
+// app.get('/',function (req, res) {
+// 	res.send("Paco Loves Bri!!!!!!")
+// })
 
 /*
 app.listen(port, function () {
